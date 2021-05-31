@@ -7,5 +7,5 @@ let plus = document.getElementById('plus');
 function decrement() {
       document.getElementById('minus').stepDown();
 } 
-increment();
+
 decrement();
