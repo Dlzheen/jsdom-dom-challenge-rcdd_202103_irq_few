@@ -1,6 +1,8 @@
 function increment() {
       document.getElementById('plus').stepUp();
    }
-   function decrement() {
+function decrement() {
       document.getElementById('minus').stepDown();
-   } 
+} 
+increment();
+decrement();
