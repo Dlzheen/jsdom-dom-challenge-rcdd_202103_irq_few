@@ -1,7 +1,9 @@
 
-function increment() {
-      document.getElementById('plus');
-   
+
+let plus = document.getElementById('plus');
+   plus.addEventListner("click", function(){
+     
+   });
 function decrement() {
       document.getElementById('minus').stepDown();
 } 
